@@ -1,7 +1,7 @@
 {
   "name": "crypto-alerts-saas",
-  "version": "1.0.0",
-  "description": "SaaS Crypto Alert Platform with Telegram Bot Integration",
+  "version": "2.0.0",
+  "description": "Professional SaaS Crypto Alert Platform with Telegram Bot Integration",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -10,13 +10,15 @@
     "lint": "next lint",
     "bot": "node bot/index.js",
     "dev:bot": "nodemon bot/index.js",
-    "migrate": "node scripts/migrate.js"
+    "migrate": "node scripts/migrate.js",
+    "setup": "node scripts/setup.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.0",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-switch": "^1.2.5",
     "@radix-ui/react-tabs": "^1.0.4",
